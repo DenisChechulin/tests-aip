@@ -1,7 +1,7 @@
 def task_1(two_dim_words):
     list_1 = []
     for i in two_dim_words:
-    for q in i:
+      for q in i:
         list_1.append(q)
 print(sorted(sorted(list_1), key=len))
 sorted_words = two_dim_words
